@@ -23,7 +23,7 @@ public class Vote {
 		List<WebElement> nameField = driver.findElementsById("v");
 		if(nameField.size()>0)
 		{
-			driver.findElementById("v").sendKeys("Raja");
+			driver.findElementById("v").sendKeys("Mangalam");
 		}
 		else
 		{
