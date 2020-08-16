@@ -23,11 +23,12 @@ public class Vote {
 		List<WebElement> nameField = driver.findElementsById("v");
 		if(nameField.size()>0)
 		{
-			driver.findElementById("v").sendKeys("Priyadarshini");
+			driver.findElementById("v").sendKeys("Mangalam");
 		}
 		else
 		{
 			System.out.println("NAme field not displayed");
+			driver.close();
 			System.exit(0);
 		}
 		driver.findElementById("vote_btn").click();
@@ -42,10 +43,12 @@ public class Vote {
 		if(voteMsg.size()>0)
 		{
 			System.out.println("Vote Successful");
+			driver.close();
 		}
 		else
 		{
 			System.out.println("Vote message not displayed. Vote unsuccessful probably");
+			driver.close();
 		}
 	}
 }
