@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30585" started-at="2020-08-16T10:06:01Z" finished-at="2020-08-16T10:06:32Z">
+  <suite name="Default suite" duration-ms="26538" started-at="2020-08-16T10:11:37Z" finished-at="2020-08-16T10:12:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30585" started-at="2020-08-16T10:06:01Z" finished-at="2020-08-16T10:06:32Z">
+    <test name="Default test" duration-ms="26538" started-at="2020-08-16T10:11:37Z" finished-at="2020-08-16T10:12:03Z">
       <class name="vote.Vote">
-        <test-method status="PASS" signature="fetchNames()[pri:0, instance:vote.Vote@204f30ec]" name="fetchNames" duration-ms="52" started-at="2020-08-16T10:06:01Z" finished-at="2020-08-16T10:06:01Z">
+        <test-method status="PASS" signature="fetchNames()[pri:0, instance:vote.Vote@204f30ec]" name="fetchNames" duration-ms="56" started-at="2020-08-16T10:11:37Z" finished-at="2020-08-16T10:11:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchNames -->
-        <test-method status="PASS" signature="CastVote()[pri:0, instance:vote.Vote@204f30ec]" name="CastVote" duration-ms="30442" started-at="2020-08-16T10:06:01Z" depends-on-methods="vote.Vote.fetchNames" finished-at="2020-08-16T10:06:32Z">
+        <test-method status="PASS" signature="CastVote()[pri:0, instance:vote.Vote@204f30ec]" name="CastVote" duration-ms="26387" started-at="2020-08-16T10:11:37Z" depends-on-methods="vote.Vote.fetchNames" finished-at="2020-08-16T10:12:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CastVote -->
-        <test-method status="PASS" signature="writeNameToNotePad()[pri:0, instance:vote.Vote@204f30ec]" name="writeNameToNotePad" duration-ms="4" started-at="2020-08-16T10:06:32Z" depends-on-methods="vote.Vote.fetchNames" finished-at="2020-08-16T10:06:32Z">
+        <test-method status="PASS" signature="writeNameToNotePad()[pri:0, instance:vote.Vote@204f30ec]" name="writeNameToNotePad" duration-ms="3" started-at="2020-08-16T10:12:03Z" depends-on-methods="vote.Vote.fetchNames" finished-at="2020-08-16T10:12:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeNameToNotePad -->
